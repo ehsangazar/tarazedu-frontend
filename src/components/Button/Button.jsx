@@ -1,5 +1,3 @@
-import directionSvg from "/direction.svg";
-
 const Button = ({ href, children, icon }) => {
   if (href) {
     return (

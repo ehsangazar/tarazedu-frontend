@@ -2,8 +2,16 @@ import "./App.css";
 import Container from "./components/Container/Container";
 import Header from "./components/Header/Header";
 import HeroSection from "./components/HeroSection/HeroSection";
+import PersonTile from "./components/PersonTile/PersonTile";
 import aboutSvg from "/about.svg";
 import shadiSvg from "/shadi.svg";
+import melikaSvg from "/melika.svg";
+import reyhaneSvg from "/reyhane.svg";
+import ehsanSvg from "/ehsan.svg";
+import sajedeSvg from "/sajede.svg";
+import shirinSvg from "/shirin.svg";
+import fatemeSvg from "/fateme.svg";
+import aisanSvg from "/aisan.svg";
 
 function App() {
   return (
@@ -15,7 +23,7 @@ function App() {
           <div>
             <h2
               id="about"
-              className="text-2xl text-center text-gray-800 mt-16 pt-16 mb-16"
+              className="text-2xl text-center font-semibold text-gray-800 mt-16 pt-16 mb-16"
             >
               درباره تاراز
             </h2>
@@ -46,18 +54,79 @@ function App() {
         </Container>
         <Container>
           <div>
-            {/* avatar shadi */}
-            <img
-              src={shadiSvg}
-              alt="Shadi"
-              className="w-24 h-24 mx-auto mt-16"
+            <h2
+              id="about"
+              className="text-2xl text-center font-semibold text-gray-800 mt-16 pt-16 mb-16"
+            >
+              معلم‌های تاراز
+            </h2>
+            <p className="text-center text-gray-600 text-lg mt-4 px-4">
+              تیم آموزشی تاراز شامل معلمان متخصص از رشته‌های مختلف است که با
+              اشتیاق و تجربه به رشد و یادگیری دانش‌آموزان کمک می‌کنند. از
+              زبان‌آموزی و ریاضی تا ادبیات و هنر، هر معلم با رویکردهای نوین،
+              دنیای جدیدی از یادگیری را برای دانش‌آموزان فراهم می‌آورد.
+            </p>
+            <div className="flex justify-center flex-wrap">
+              <div className="px-14">
+                <PersonTile
+                  imgSrc={melikaSvg}
+                  title={"ملیکا فرجی"}
+                  role={"مدرس زبان انگلیسی"}
+                />
+              </div>
+              <div className="px-14">
+                <PersonTile
+                  imgSrc={sajedeSvg}
+                  title={"ساجده کاشانی"}
+                  role={"مدرس زبان انگلیسی"}
+                />
+              </div>
+              <div className="px-14">
+                <PersonTile
+                  imgSrc={shirinSvg}
+                  title={"شیرین کاظمیان"}
+                  role={"مدرس داستان‌نویسی"}
+                />
+              </div>
+              <div className="px-14">
+                <PersonTile
+                  imgSrc={fatemeSvg}
+                  title={"فاطمه رستمی"}
+                  role={"مدرس ریاضی"}
+                />
+              </div>
+              <div className="px-14">
+                <PersonTile
+                  imgSrc={ehsanSvg}
+                  title={"احسان گازار"}
+                  role={"مدرس برنامه‌نویسی"}
+                />
+              </div>
+              <div className="px-14">
+                <PersonTile
+                  imgSrc={aisanSvg}
+                  title={"آیسان رشید"}
+                  role={"مدرس ادبیات"}
+                />
+              </div>
+              <div className="px-14">
+                <PersonTile
+                  imgSrc={reyhaneSvg}
+                  title={"ریحانه کفایتی"}
+                  role={"مدرس تصویرسازی"}
+                />
+              </div>
+            </div>
+          </div>
+          <img src={aboutSvg} alt="About" className="w-full mt-16" />
+        </Container>
+        <Container>
+          <div>
+            <PersonTile
+              imgSrc={shadiSvg}
+              title={"شادی مهجوم"}
+              role={"بنیان‌گزار"}
             />
-            <h3 className="text-xl text-center text-gray-800 mt-4">
-              شادی مهجوم
-            </h3>
-            <h4 className="text-lg text-center text-gray-600 mt-2 mb-16">
-              بنیان‌گزار
-            </h4>
             <p className="text-center text-gray-600 text-lg mt-4 px-4">
               حدود یک سال پیش، سر کلاس دانشگاه نشسته بودم و به همکلاسی‌هایم از
               تجربه‌ی کمک‌های داوطلبانه‌شان می‌گفتند گوش می‌دادم. گفت‌وگوهاشان
