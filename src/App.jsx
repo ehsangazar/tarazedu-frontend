@@ -208,7 +208,7 @@ function App() {
           </div>
         </Container>
         <Container>
-          <div className="bg-sky-100 rounded-2xl flex p-4">
+          <div className="bg-sky-100 rounded-2xl flex p-4 flex-col md:flex-row">
             <div>
               <h3 className="text-2xl font-semibold text-gray-800 p-4">
                 ثبت نام ترم پاییز
