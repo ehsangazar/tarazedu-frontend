@@ -13,7 +13,10 @@ function App() {
         <HeroSection />
         <Container>
           <div>
-            <h2 className="text-2xl text-center text-gray-800 mt-16">
+            <h2
+              id="about"
+              className="text-2xl text-center text-gray-800 mt-16 pt-16 mb-16"
+            >
               درباره تاراز
             </h2>
             <p className="text-center text-gray-600 text-lg mt-4 px-4">
@@ -47,7 +50,7 @@ function App() {
             <img
               src={shadiSvg}
               alt="Shadi"
-              className="w-32 h-32 mx-auto mt-16"
+              className="w-24 h-24 mx-auto mt-16"
             />
             <h3 className="text-xl text-center text-gray-800 mt-4">
               شادی مهجوم
