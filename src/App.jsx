@@ -12,6 +12,8 @@ import sajedeSvg from "/sajede.svg";
 import shirinSvg from "/shirin.svg";
 import fatemeSvg from "/fateme.svg";
 import aisanSvg from "/aisan.svg";
+import courseSvg from "/course.svg";
+import CourseTile from "./components/CourseTile/CourseTile";
 
 function App() {
   return (
@@ -19,6 +21,89 @@ function App() {
       <div className="persian bg-gray-50">
         <Header />
         <HeroSection />
+        <Container>
+          <div>
+            <h2
+              id="courses"
+              className="text-2xl text-center font-semibold text-gray-800 mt-16 pt-16 mb-16"
+            >
+              دوره‌ها و کلاس‌ها
+            </h2>
+            <div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1">
+                <CourseTile
+                  imgSrc={courseSvg}
+                  title={"زبان انگلیسی"}
+                  learning={"تمرین، اعتمادبه‌نفس، ارتباطات"}
+                  description={
+                    "این کلاس برای تقویت اعتمادبه‌نفس شما در مکالمات روزمره انگلیسی طراحی شده است. با روش‌های مختلف، مانند خواندن مقاله، تماشای فیلم و نوشتن، دانش خود را به کار می‌گیرید. در پایان ترم، با همسالان‌تان از سراسر جهان از طریق گوگل میت گفتگو می‌کنید و شبکه‌ی دوستی خود را گسترش می‌دهید."
+                  }
+                  teachers={[melikaSvg, sajedeSvg]}
+                />
+
+                <CourseTile
+                  imgSrc={courseSvg}
+                  title={"داستان‌نویسی"}
+                  learning={"تمرین، اعتمادبه‌نفس، ارتباطات"}
+                  description={
+                    "این کلاس با تأکید بر تخیل و احساسات درونی، به دانش‌آموزان کمک می‌کند تا از طریق نویسندگی، خلاقیت، دقت، و اعتمادبه‌نفس خود را تقویت کنند. قصه‌گویی و نویسندگی را به‌عنوان فرآیندی خلاقانه، شبیه ساختن خانه‌ای از آجرها، یاد می‌گیرند و با کلمات، جهانی جدید می‌آفرینند."
+                  }
+                  teachers={[shirinSvg]}
+                />
+
+                <CourseTile
+                  imgSrc={courseSvg}
+                  title={"طراحی گرافیک"}
+                  learning={"طراخی، خلاقیت، تصویرسازی"}
+                  description={
+                    "در کلاس طراحی گرافیک، با مفاهیم بصری و عناصر اصلی مثل نقطه، خط و سطح آشنا می‌شویم. از طبیعت الهام می‌گیریم، تاریخچه تصویرسازی را مرور کرده و رنگ‌سازی را تجربه می‌کنیم. با ابزارهایی چون گواش و آبرنگ، شخصیت‌هایی خلق می‌کنیم و آن‌ها را در فضا قرار داده و داستان‌هایشان را به تصویر می‌کشیم."
+                  }
+                  teachers={[reyhaneSvg]}
+                />
+
+                <CourseTile
+                  imgSrc={courseSvg}
+                  title={"برنامه‌نویسی"}
+                  learning={"یادگیری، پروژه، شغل"}
+                  description={
+                    "کلاس برنامه‌نویسی ما با هدف آموزش تکنیک‌ها و استراتژی‌های پایه طراحی شده است. دانش‌آموزان در طول ترم با زبان‌های HTML، CSS و JavaScript آشنا می‌شوند و مهارت‌های لازم را برای پروژه‌های واقعی کسب می‌کنند. در پایان دوره، پروژه‌هایی را تکمیل می‌کنند که به رزومه و فرصت‌های شغلی آن‌ها ارزش می‌بخشد."
+                  }
+                  teachers={[ehsanSvg]}
+                />
+
+                <CourseTile
+                  imgSrc={courseSvg}
+                  title={"شاهنامه‌خوانی"}
+                  learning={"شاهنامه، ماجراجویی، شناخت"}
+                  description={
+                    "در کارگاه شاهنامه‌خوانی، سفری ماجراجویانه به دوران کهن داریم. با داستان‌های شاهنامه فردوسی، دیدگاه‌های نیاکان‌مان را درباره‌ی جهان می‌کاویم. در کنار هم با شخصیت‌ها و موقعیت‌های شاهنامه آشنا می‌شویم و با فعالیت‌های خلاقانه در دل داستان‌ها غرق می‌شویم."
+                  }
+                  teachers={[ehsanSvg]}
+                />
+
+                <CourseTile
+                  imgSrc={courseSvg}
+                  title={"المپیاد ادبیات"}
+                  learning={"متون کلاسیک، آمادگی، رقابت"}
+                  description={
+                    "کلاس المپیاد ادبیات فرصتی است برای تقویت توانایی دانش‌آموزان در شرکت در آزمون المپیاد ادبیات. اینجا متون کلاسیک همچون غزلیات حافظ، کلیات سعدی، شاهنامه و تاریخ بیهقی را با هم می‌خوانیم و به درک عمیق‌تری از ادبیات و آمادگی برای رقابت کشوری دست می‌یابیم. مدال المپیاد، بسته به رنگ و رشته‌ی دانشگاهی، ممکن است معافیت یا سهمیه‌ای در کنکور به همراه داشته باشد."
+                  }
+                  teachers={[aisanSvg]}
+                />
+
+                <CourseTile
+                  imgSrc={courseSvg}
+                  title={"ریاضی"}
+                  learning={"تفکر، حل‌مسئله، پیشرفت"}
+                  description={
+                    "در کلاس ریاضی، پایه‌ی قوی در مفاهیم ریاضی را می‌سازیم و از آن در زمینه‌های کاربردی مثل برنامه‌نویسی استفاده می‌کنیم. کلاس‌ها در سطح‌های متوسط تا پیشرفته ارائه می‌شوند و استادان در حل مسائل چالش‌برانگیز و تقویت مهارت‌های حل‌مسئله و تفکر انتقادی، راهنمای دانش‌آموزان هستند."
+                  }
+                  teachers={[fatemeSvg]}
+                />
+              </div>
+            </div>
+          </div>
+        </Container>
         <Container>
           <div>
             <h2
@@ -55,7 +140,7 @@ function App() {
         <Container>
           <div>
             <h2
-              id="about"
+              id="teachers"
               className="text-2xl text-center font-semibold text-gray-800 mt-16 pt-16 mb-16"
             >
               معلم‌های تاراز
@@ -111,7 +196,7 @@ function App() {
               </div>
               <div className="px-14">
                 <PersonTile
-                  imgSrc={reyhaneSvg}
+                  imgSrc={fatemeSvg}
                   title={"ریحانه کفایتی"}
                   role={"مدرس تصویرسازی"}
                 />
@@ -125,7 +210,7 @@ function App() {
             <PersonTile
               imgSrc={shadiSvg}
               title={"شادی مهجوم"}
-              role={"بنیان‌گزار"}
+              role={"بنیان‌گذار"}
             />
             <p className="text-center text-gray-600 text-lg mt-4 px-4">
               حدود یک سال پیش، سر کلاس دانشگاه نشسته بودم و به همکلاسی‌هایم از
