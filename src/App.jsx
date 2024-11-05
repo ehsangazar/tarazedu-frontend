@@ -213,9 +213,12 @@ function App() {
               <h3 className="text-2xl font-semibold text-gray-800 p-4">
                 ثبت نام ترم پاییز
               </h3>
-              <p className="text-gray-600 text-lg mt-4 mb-12 p-4">
+              <p className="text-gray-600 text-lg mt-4 p-4">
                 کلاس‌های آموزشی ترم پاییز تاراز در حال ثبت نام هست و شما
                 می‌توانید با پر کردن پرسشنامه زیر برای یک ماجراجویی آماده بشید!
+              </p>
+              <p className="text-red-700 text-lg mb-12 p-4">
+                مهلت ثبت‌نام تا دو هفته‌ی آینده تا تاریخ ۳۰ آبان ۱۴۰۳
               </p>
               <div className="w-fit">
                 <Button
@@ -272,6 +275,7 @@ function App() {
             </p>
           </div>
         </Container>
+        {/* <Footer /> */}
       </div>
     </>
   );
