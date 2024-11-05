@@ -17,6 +17,7 @@ import hatSvg from "/hat.svg";
 import CourseTile from "./components/CourseTile/CourseTile";
 import { PiArrowCircleUpLeftFill } from "react-icons/pi";
 import Button from "./components/Button/Button";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -275,7 +276,7 @@ function App() {
             </p>
           </div>
         </Container>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
