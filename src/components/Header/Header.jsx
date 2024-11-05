@@ -36,7 +36,7 @@ const Header = () => {
             onClick={(e) => smoothScroll(e)}
             className="hover:text-green-500 text-center"
           >
-            معلم‌های تاتار
+            معلم‌های تاراز
           </a>
         </nav>
 

@@ -10,7 +10,10 @@ const HeroSection = () => {
       <p className="text-gray-600 text-lg mb-8 leading-relaxed">
         برای شروع به ماجراجویی آموزشی آماده‌ای؟
       </p>
-      <Button href="#link" icon={PiArrowCircleUpLeftFill}>
+      <Button
+        href="https://survey.porsline.ir/s/gy1vVKYr"
+        icon={PiArrowCircleUpLeftFill}
+      >
         ثبت‌نام در کلاس‌ها
       </Button>
     </main>
