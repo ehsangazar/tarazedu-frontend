@@ -13,7 +13,10 @@ import shirinSvg from "/shirin.svg";
 import fatemeSvg from "/fateme.svg";
 import aisanSvg from "/aisan.svg";
 import courseSvg from "/course.svg";
+import hatSvg from "/hat.svg";
 import CourseTile from "./components/CourseTile/CourseTile";
+import { PiArrowCircleUpLeftFill } from "react-icons/pi";
+import Button from "./components/Button/Button";
 
 function App() {
   return (
@@ -203,7 +206,25 @@ function App() {
               </div>
             </div>
           </div>
-          <img src={aboutSvg} alt="About" className="w-full mt-16" />
+        </Container>
+        <Container>
+          <div className="bg-sky-100 rounded-2xl flex p-4">
+            <div>
+              <h3 className="text-2xl font-semibold text-gray-800 p-4">
+                ثبت نام ترم پاییز
+              </h3>
+              <p className="text-gray-600 text-lg mt-4 mb-12 p-4">
+                کلاس‌های آموزشی ترم پاییز تاراز در حال ثبت نام هست و شما
+                می‌توانید با پر کردن پرسشنامه زیر برای یک ماجراجویی آماده بشید!
+              </p>
+              <div className="w-fit">
+                <Button href="#link" icon={PiArrowCircleUpLeftFill}>
+                  ثبت‌نام در کلاس‌ها
+                </Button>
+              </div>
+            </div>
+            <img src={hatSvg} alt="Hat" className="w-80" />
+          </div>
         </Container>
         <Container>
           <div>
