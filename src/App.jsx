@@ -196,7 +196,7 @@ function App() {
               </div>
               <div className="px-14">
                 <PersonTile
-                  imgSrc={fatemeSvg}
+                  imgSrc={reyhaneSvg}
                   title={"ریحانه کفایتی"}
                   role={"مدرس تصویرسازی"}
                 />
