@@ -17,7 +17,7 @@ const Footer = () => {
 
           <div className="flex justify-center items-center">
             <a
-              href="https://t.me/Tarazeducation"
+              href="https://t.me/tarazedu"
               className="w-16 flex justify-center"
               target="_blank"
             >
