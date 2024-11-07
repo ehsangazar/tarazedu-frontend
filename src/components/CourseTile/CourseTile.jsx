@@ -1,6 +1,6 @@
 const CourseTile = ({ imgSrc, title, learning, description, teachers }) => {
   return (
-    <div className="bg-sky-100 rounded-2xl p-3 m-1 flex-grow-0 flex-shrink-0">
+    <div className="bg-[#DBEFF2] rounded-2xl p-3 m-1 flex-grow-0 flex-shrink-0 grid grid-rows-[90px_1fr_60px]">
       <div className="flex justify-center flex-wrap">
         <img src={imgSrc} alt={"course"} className="w-16 h-16 mt-4 mx-4" />
         <div className="text-right flex-1">

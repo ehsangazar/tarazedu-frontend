@@ -4,7 +4,7 @@ const Button = ({ href, children, icon }) => {
       <a
         href={href}
         target="_blank"
-        className="flex justify-center items-center bg-green-500 hover:bg-green-700 text-white text-lg font-semibold py-2 px-6 rounded-full"
+        className="flex justify-center items-center bg-[#739C14] hover:bg-[#577714] text-white text-lg font-semibold py-2 px-6 rounded-full"
       >
         {children}
         {icon && <div className="px-1 text-xl">{icon()}</div>}
@@ -13,7 +13,7 @@ const Button = ({ href, children, icon }) => {
   }
 
   return (
-    <button className="flex justify-center items-center bg-green-500 hover:bg-green-700 text-white text-lg font-semibold py-2 px-6 rounded-full">
+    <button className="flex justify-center items-center bg-[#739C14] hover:bg-[#577714] text-white text-lg font-semibold py-2 px-6 rounded-full">
       {children}
       {icon && <div className="px-1">{icon()}</div>}
     </button>
