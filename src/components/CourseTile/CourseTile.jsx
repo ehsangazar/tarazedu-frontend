@@ -7,10 +7,10 @@ const CourseTile = ({ imgSrc, title, learning, description, teachers }) => {
           <h3 className="text-xl font-semibold text-right text-gray-800 mt-4">
             {title}
           </h3>{" "}
-          <h4 className="text-lg text-right text-gray-600 mt-2 ">{learning}</h4>
+          <h4 className="text-md text-right text-gray-600 mt-2 ">{learning}</h4>
         </div>
       </div>
-      <p className="text-right text-gray-600 text-lg mt-4 px-4 flex-auto min-h-96">
+      <p className="text-right text-gray-800 text-lg mt-6 px-4 flex-auto min-h-96">
         {description}
       </p>
       <div className="flex justify-end flex-wrap">
