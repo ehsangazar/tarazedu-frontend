@@ -23,5 +23,46 @@
 
       gtag("config", "G-6MDPPJ9C5D");
     </script>
+
+    <script>
+      // Define dataLayer and the gtag function.
+
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        regions: [
+          "ES",
+          "IT",
+          "GR",
+          "PT",
+          "BE",
+          "FR",
+          "DE",
+          "AT",
+          "NL",
+          "LU",
+          "IE",
+          "DK",
+          "SE",
+          "FI",
+          "NO",
+          "IS",
+        ],
+      });
+      gtag("consent", "default", {
+        ad_storage: "granted",
+        ad_user_data: "granted",
+        ad_personalization: "granted",
+        analytics_storage: "granted",
+      });
+    </script>
   </body>
 </html>
