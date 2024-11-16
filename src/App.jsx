@@ -239,7 +239,7 @@ function App() {
               </p>
               <div className="w-fit">
                 <Button
-                  href="https://survey.porsline.ir/s/gy1vVKYr"
+                  href="https://survey.porsline.ir/s/A84W7tMx"
                   icon={PiArrowCircleUpLeftFill}
                 >
                   ثبت‌نام در کلاس‌ها

@@ -11,7 +11,7 @@ const HeroSection = () => {
         برای شروع به ماجراجویی آموزشی آماده‌ای؟
       </p>
       <Button
-        href="https://survey.porsline.ir/s/gy1vVKYr"
+        href="https://survey.porsline.ir/s/A84W7tMx"
         icon={PiArrowCircleUpLeftFill}
       >
         ثبت‌نام در کلاس‌ها
