@@ -7,16 +7,15 @@ const History = () => {
   ];
 
   const secondSemesterImages = [
-    // No images available for 2nd semester
-  ];
-
-  const thirdSemesterImages = [
     "/history/Screen Shot 2025-02-17 at 11.36.27 AM.png",
     "/history/Screen Shot 2025-03-07 at 2.32.51 PM.png",
     "/history/Screen Shot 2025-03-07 at 2.41.55 PM.png",
     "/history/Screen Shot 2025-04-24 at 3.30.12 PM.png",
     "/history/Screen Shot 2025-05-12 at 10.33.35 AM.png",
     "/history/Screen Shot 2025-05-26 at 11.42.05 AM.png",
+  ];
+
+  const thirdSemesterImages = [
     "/history/Screen Shot 2025-07-26 at 1.54.47 PM.png",
     "/history/Screen Shot 2025-09-27 at 7.30.53 PM.png",
     "/history/Screen Shot 2025-10-05 at 8.21.49 PM.png",

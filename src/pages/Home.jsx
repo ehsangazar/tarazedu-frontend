@@ -14,6 +14,7 @@ import matinSvg from "/matin.svg";
 import courseSvg from "/course.svg";
 import sepidehImg from "/sepideh.png";
 import arefImg from "/aref.jpg";
+import aliEdrakiImg from "/ali_edraki.jpg";
 import CourseTile from "../components/CourseTile/CourseTile";
 import { Link } from "react-router-dom";
 
@@ -207,13 +208,13 @@ const Home = () => {
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img
                   src="/history/Screen Shot 2025-02-17 at 11.36.27 AM.png"
-                  alt="3rd Semester"
+                  alt="2nd Semester"
                   className="w-full h-32 object-cover"
                 />
               </div>
               <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <img
-                  src="/history/Screen Shot 2025-04-24 at 3.30.12 PM.png"
+                  src="/history/Screen Shot 2025-07-26 at 1.54.47 PM.png"
                   alt="3rd Semester"
                   className="w-full h-32 object-cover"
                 />
@@ -440,6 +441,37 @@ const Home = () => {
                     seamless coordination of educational programs. Dedicated to
                     creating exceptional learning experiences through meticulous
                     planning and organization.
+                  </p>
+                </div>
+              </div>
+
+              {/* Ali Edraki */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-[#739C14]/10 p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="flex flex-col items-center text-center">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full blur-xl opacity-30"></div>
+                    <div
+                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20 overflow-hidden"
+                      style={{ backgroundColor: "#dbeff2" }}
+                    >
+                      <img
+                        src={aliEdrakiImg}
+                        alt="Ali Edraki"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                    Ali Edraki
+                  </h3>
+                  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                    <span>Director of Strategic Relationships</span>
+                  </div>
+                  <p className="text-gray-600 text-base leading-relaxed">
+                    Director of Strategic Relationships at MPM BioImpact,
+                    bringing expertise in corporate strategy and innovation to
+                    help Taraz build meaningful partnerships and expand its
+                    educational impact.
                   </p>
                 </div>
               </div>
