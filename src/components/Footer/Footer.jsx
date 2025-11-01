@@ -1,7 +1,7 @@
 import tarazLogo from "/logo_white.svg";
 import telegramSvg from "/telegram.svg";
 import instagramSvg from "/instagram.svg";
-import { FaEnvelope } from "react-icons/fa";
+import { FaEnvelope, FaGraduationCap, FaVideo } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#172B35] text-white">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-8 mb-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <Link
@@ -69,6 +69,39 @@ const Footer = () => {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          {/* Platforms Section */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-white">Platforms</h3>
+            <ul className="space-y-4">
+              <li>
+                <a
+                  href="http://lms.tarazedu.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 text-white/70 hover:text-white transition-colors duration-200 text-sm group"
+                >
+                  <div className="w-8 h-8 flex items-center justify-center bg-white/10 rounded-full group-hover:bg-[#739C14] transition-colors duration-200">
+                    <FaGraduationCap className="text-xs" />
+                  </div>
+                  <span>LMS (Moodle)</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://meet.tarazedu.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 text-white/70 hover:text-white transition-colors duration-200 text-sm group"
+                >
+                  <div className="w-8 h-8 flex items-center justify-center bg-white/10 rounded-full group-hover:bg-[#739C14] transition-colors duration-200">
+                    <FaVideo className="text-xs" />
+                  </div>
+                  <span>Virtual Meetings</span>
+                </a>
+              </li>
             </ul>
           </div>
 
