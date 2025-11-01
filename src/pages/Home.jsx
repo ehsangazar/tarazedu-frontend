@@ -12,6 +12,7 @@ import fatemegSvg from "/fatemeg.svg";
 import aisanSvg from "/aisan.svg";
 import matinSvg from "/matin.svg";
 import courseSvg from "/course.svg";
+import sepidehImg from "/sepideh.png";
 import CourseTile from "../components/CourseTile/CourseTile";
 
 const Home = () => {
@@ -204,7 +205,7 @@ const Home = () => {
             </div>
 
             {/* Core Team Members */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 max-w-6xl mx-auto">
               {/* Shadi Mahjoom */}
               <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-[#739C14]/10 p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="flex flex-col items-center text-center">
@@ -253,6 +254,37 @@ const Home = () => {
                     empowering students with practical skills and real-world
                     project experience. Bridging technology and education to
                     shape the future.
+                  </p>
+                </div>
+              </div>
+
+              {/* Sepideh Kazemi */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-[#739C14]/10 p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="flex flex-col items-center text-center">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full blur-xl opacity-30"></div>
+                    <div
+                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20 overflow-hidden"
+                      style={{ backgroundColor: "#dbeff2" }}
+                    >
+                      <img
+                        src={sepidehImg}
+                        alt="Sepideh Kazemi"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                    Sepideh Kazemi
+                  </h3>
+                  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                    <span>Organiser & Planner</span>
+                  </div>
+                  <p className="text-gray-600 text-base leading-relaxed">
+                    Organiser and planner ensuring smooth operations and
+                    seamless coordination of educational programs. Dedicated to
+                    creating exceptional learning experiences through meticulous
+                    planning and organization.
                   </p>
                 </div>
               </div>
