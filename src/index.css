@@ -66,19 +66,50 @@
   src: url(../public/font/BonyadeKoodakKoochak-Black.woff2) format('woff2');
 }
 
-.persian,
-.persian * {
-  direction: rtl;
-  font-family: 'BonyadeKoodakKoochak', system-ui, Avenir, Helvetica, Arial, sans-serif;
-}
-
 body {
+  direction: ltr;
   font-family: 'BonyadeKoodakKoochak', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #F6F7F6;
   background-color: #ffffff;
 }
-.ltr {
-  direction: ltr;
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #739C14;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8BB825;
+}
+
+/* Animation for mobile menu */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slideDown {
+  animation: slideDown 0.3s ease-out;
 }

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-[#172B35]">
       <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-0">
         <div className="w-full grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] items-center">
-          <p className="text-white text-lg text-center md:text-right ltr">
+          <p className="text-white text-lg text-center md:text-left">
             © 2024 Taraz. All rights reserved.
           </p>
 
