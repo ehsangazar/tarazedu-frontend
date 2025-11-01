@@ -16,10 +16,11 @@ const OurApproach = () => {
             <p className="text-gray-900 text-lg leading-relaxed">
               Our journey at Taraz has been one of continuous growth, learning,
               and improvement. We believe that education goes beyond academic
-              knowledge. Our mission is to empower students with both practical
-              and soft skills that equip them to face everyday challenges, build
-              meaningful relationships, and achieve personal and professional
-              success.
+              knowledge. Our mission is to empower{" "}
+              <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+              students with both practical and soft skills that equip them to
+              face everyday challenges, build meaningful relationships, and
+              achieve personal and professional success.
             </p>
 
             <p className="text-gray-900 text-lg leading-relaxed">

@@ -91,16 +91,19 @@ const History = () => {
             <div className="space-y-6 text-gray-800 text-lg leading-relaxed">
               <p>
                 We launched the first Taraz semester with the goal of creating a
-                free, online educational platform for students who needed
-                additional support in their core school subjects. We offered
-                Math, English, and Arabic classes to help them strengthen their
-                academic foundation and improve their grades.
+                free, online educational platform for{" "}
+                <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+                students who needed additional support in their core school
+                subjects. We offered Math, English, and Arabic classes to help
+                them strengthen their academic foundation and improve their
+                grades.
               </p>
               <p>
-                These students&apos; dedication and consistency set the tone for
-                what Taraz would become. They attended every class, regardless
-                of time or circumstance, driven by curiosity and resilience.
-                Their commitment reminded us why education should always remain
+                These <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+                students&apos; dedication and consistency set the tone for what
+                Taraz would become. They attended every class, regardless of
+                time or circumstance, driven by curiosity and resilience. Their
+                commitment reminded us why education should always remain
                 accessible no matter one&apos;s background or challenges.
               </p>
             </div>
@@ -135,7 +138,8 @@ const History = () => {
             </div>
             <div className="space-y-6 text-gray-800 text-lg leading-relaxed">
               <p>
-                After the first semester, it became clear that our
+                After the first semester, it became clear that our{" "}
+                <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
                 students&apos; needs extended beyond core academic subjects.
                 They wanted to gain real-world skills and explore new fields of
                 knowledge that traditional classrooms fail to offer.
@@ -143,14 +147,17 @@ const History = () => {
               <p>
                 We expanded our curriculum to include courses including
                 literature, critical writing, programming, and other
-                interdisciplinary courses. Our main goal was to help students
-                develop both hard and soft skills, discover their personal
-                interests, and learn how to apply their knowledge through
-                projects and creative presentations.
+                interdisciplinary courses. Our main goal was to help{" "}
+                <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+                students develop both hard and soft skills, discover their
+                personal interests, and learn how to apply their knowledge
+                through projects and creative presentations.
               </p>
               <p>
                 This semester marked a turning point—Taraz began to evolve from
-                a tutoring platform into a transformative learning community.
+                a tutoring platform into a transformative learning community for
+                the <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+                community.
               </p>
             </div>
             {secondSemesterImages.length > 0 && (

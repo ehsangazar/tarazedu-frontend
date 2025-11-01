@@ -119,9 +119,14 @@ const Home = () => {
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-[#739C14] to-[#8BB825] mx-auto rounded-full mb-6"></div>
               <p className="text-gray-800 text-lg max-w-3xl mx-auto leading-relaxed">
-                From a small beginning with 3 students to a thriving community
-                of 34 learners, Taraz has grown through dedication and the
-                support of our generous donors.
+                From a small beginning with 3{" "}
+                <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+                students to a thriving community of 34 learners, Taraz has grown
+                through dedication and the support of our generous donors. We
+                serve the{" "}
+                <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+                community, providing accessible education to students across
+                Iran.
               </p>
             </div>
 

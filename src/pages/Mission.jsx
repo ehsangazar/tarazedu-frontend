@@ -14,13 +14,15 @@ const Mission = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="bg-gradient-to-br from-[#DBEFF2] to-white rounded-3xl p-8 md:p-12 shadow-lg">
             <p className="text-gray-900 text-xl leading-relaxed mb-6">
-              At Taraz, we are dedicated to making education accessible to
+              At Taraz, we are dedicated to making education accessible to{" "}
+              <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
               students in the age range{" "}
               <strong className="text-[#739C14]">13-18</strong> in{" "}
               <strong className="text-[#739C14]">Iran</strong>. Our mission is
               to break down barriers by offering online classes that only
-              require internet access and a smartphone, connecting students from
-              every corner of Iran.
+              require internet access and a smartphone, connecting{" "}
+              <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+              students from every corner of Iran.
             </p>
 
             <div className="border-l-4 border-[#739C14] pl-6 my-8">

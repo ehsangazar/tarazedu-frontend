@@ -63,8 +63,9 @@ const HeroSection = () => {
           Ready to start your educational adventure?
         </p>
         <p className="text-gray-600 text-lg md:text-xl mb-12 leading-relaxed max-w-2xl mx-auto">
-          Join a community of learners, teachers, and innovators building the
-          future of education together.
+          Join a community of{" "}
+          <strong className="text-[#739C14]">Farsi-speaking</strong> learners,
+          teachers, and innovators building the future of education together.
         </p>
 
         {/* CTA Section */}

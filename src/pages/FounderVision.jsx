@@ -24,7 +24,9 @@ const FounderVision = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           <p className="text-gray-900 text-xl leading-relaxed text-center mb-12">
             As the founder and educational lead at Taraz, my mission is to
-            design a curriculum that serves three key purposes:
+            design a curriculum for{" "}
+            <strong className="text-[#739C14]">Farsi-speaking</strong> students
+            that serves three key purposes:
           </p>
 
           <div className="space-y-6 mt-8">

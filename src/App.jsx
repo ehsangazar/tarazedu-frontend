@@ -16,6 +16,17 @@ import AIIntegration from "./pages/AIIntegration";
 import FounderVision from "./pages/FounderVision";
 import History from "./pages/History";
 
+// Component to scroll to top on route change
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [location.pathname]);
+
+  return null;
+}
+
 // Component to handle GitHub Pages redirect
 function RedirectHandler() {
   const navigate = useNavigate();
@@ -38,6 +49,7 @@ function RedirectHandler() {
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <RedirectHandler />
       <div className="bg-gray-50">
         <Header />
