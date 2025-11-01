@@ -9,6 +9,7 @@ import {
 import { useEffect } from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import FloatingDonateButton from "./components/FloatingDonateButton/FloatingDonateButton";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
 import OurApproach from "./pages/OurApproach";
@@ -63,6 +64,7 @@ function App() {
           <Route path="/history" element={<History />} />
         </Routes>
         <Footer />
+        <FloatingDonateButton />
       </div>
     </BrowserRouter>
   );

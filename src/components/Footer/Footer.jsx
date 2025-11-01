@@ -1,7 +1,7 @@
 import tarazLogo from "/logo_white.svg";
 import telegramSvg from "/telegram.svg";
 import instagramSvg from "/instagram.svg";
-import { FaEnvelope, FaGraduationCap, FaVideo } from "react-icons/fa";
+import { FaEnvelope, FaGraduationCap, FaVideo, FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -146,6 +146,15 @@ const Footer = () => {
               quality education accessible to all students, regardless of
               geographical boundaries or economic status.
             </p>
+            <a
+              href="https://buymeacoffee.com/tarazedu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] hover:from-[#577714] hover:to-[#739C14] text-white px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105 mb-4"
+            >
+              <FaHeart className="text-xs" />
+              <span>Support Us</span>
+            </a>
             <div className="pt-4 border-t border-white/10">
               <p className="text-white/60 text-xs">
                 Building bridges through education

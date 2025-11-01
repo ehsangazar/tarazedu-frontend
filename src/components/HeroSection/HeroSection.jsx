@@ -1,4 +1,10 @@
-import { FaTelegram, FaGraduationCap, FaGlobe, FaRocket } from "react-icons/fa";
+import {
+  FaTelegram,
+  FaGraduationCap,
+  FaGlobe,
+  FaRocket,
+  FaHeart,
+} from "react-icons/fa";
 import { useEffect, useState } from "react";
 
 const HeroSection = () => {
@@ -78,6 +84,15 @@ const HeroSection = () => {
           >
             <FaTelegram className="text-2xl group-hover:rotate-12 transition-transform duration-300" />
             <span>Join Us on Telegram</span>
+          </a>
+          <a
+            href="https://buymeacoffee.com/tarazedu"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-3 bg-white hover:bg-gray-50 text-[#739C14] text-lg font-semibold py-4 px-10 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 border-2 border-[#739C14]"
+          >
+            <FaHeart className="text-xl group-hover:scale-110 transition-transform duration-300" />
+            <span>Support Us</span>
           </a>
         </div>
       </div>

@@ -75,6 +75,29 @@ const History = () => {
                 </li>
               </ul>
             </div>
+
+            {/* Donation CTA */}
+            <div className="text-center mt-8 pt-8 border-t border-[#739C14]/20">
+              <p className="text-gray-800 text-lg mb-4">
+                Your contributions make a real difference. Support our mission
+                to provide accessible education.
+              </p>
+              <a
+                href="https://buymeacoffee.com/tarazedu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] hover:from-[#577714] hover:to-[#739C14] text-white px-8 py-3 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              >
+                <svg
+                  className="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                >
+                  <path d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                </svg>
+                <span>Donate Now</span>
+              </a>
+            </div>
           </div>
         </div>
 
