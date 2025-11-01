@@ -13,6 +13,7 @@ import aisanSvg from "/aisan.svg";
 import matinSvg from "/matin.svg";
 import courseSvg from "/course.svg";
 import sepidehImg from "/sepideh.png";
+import arefImg from "/aref.jpg";
 import CourseTile from "../components/CourseTile/CourseTile";
 
 const Home = () => {
@@ -78,7 +79,7 @@ const Home = () => {
                 description={
                   "Our programming class is designed to teach fundamental techniques and strategies. Throughout the term, students become familiar with HTML, CSS, and JavaScript and acquire the necessary skills for real-world projects. By the end of the course, they complete projects that add value to their resume and career opportunities."
                 }
-                teachers={[ehsanSvg]}
+                teachers={[ehsanSvg, arefImg]}
               />
 
               <CourseTile
@@ -159,6 +160,13 @@ const Home = () => {
               <PersonTile
                 imgSrc={ehsanSvg}
                 title={"Ehsan Gazar"}
+                role={"Programming Instructor"}
+              />
+            </div>
+            <div className="transform transition-transform hover:scale-105">
+              <PersonTile
+                imgSrc={arefImg}
+                title={"Aref Mirhosseini"}
                 role={"Programming Instructor"}
               />
             </div>
