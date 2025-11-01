@@ -17,9 +17,10 @@ const Footer = () => {
 
           <div className="flex justify-center items-center">
             <a
-              href="https://t.me/tarazedu"
+              href="https://t.me/+q-sakNStMHE3ODNh"
               className="w-16 flex justify-center"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src={telegramSvg} alt="Telegram" />
             </a>

@@ -10,7 +10,7 @@ const CourseTile = ({ imgSrc, title, learning, description, teachers }) => {
           <h4 className="text-sm text-[#739C14] font-medium">{learning}</h4>
         </div>
       </div>
-      <p className="text-gray-700 text-base mt-4 px-2 flex-auto leading-relaxed line-clamp-6">
+      <p className="text-gray-800 text-base mt-4 px-2 flex-auto leading-relaxed line-clamp-6">
         {description}
       </p>
       <div className="flex justify-start items-center gap-2 mt-4 pt-4 border-t border-gray-100">

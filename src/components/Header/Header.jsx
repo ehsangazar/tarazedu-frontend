@@ -46,7 +46,7 @@ const Header = () => {
                 className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all duration-200 ${
                   isActive(link.path)
                     ? "text-[#739C14] bg-[#DBEFF2]"
-                    : "text-gray-700 hover:text-[#739C14] hover:bg-gray-50"
+                    : "text-gray-800 hover:text-[#739C14] hover:bg-gray-50"
                 }`}
               >
                 {link.label}
@@ -57,7 +57,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+            className="md:hidden p-2 rounded-lg text-gray-800 hover:bg-gray-100 transition-colors duration-200"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
@@ -80,7 +80,7 @@ const Header = () => {
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                     isActive(link.path)
                       ? "text-[#739C14] bg-[#DBEFF2]"
-                      : "text-gray-700 hover:text-[#739C14] hover:bg-gray-50"
+                      : "text-gray-800 hover:text-[#739C14] hover:bg-gray-50"
                   }`}
                 >
                   {link.label}

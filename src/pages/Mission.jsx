@@ -13,7 +13,7 @@ const Mission = () => {
 
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="bg-gradient-to-br from-[#DBEFF2] to-white rounded-3xl p-8 md:p-12 shadow-lg">
-            <p className="text-gray-800 text-xl leading-relaxed mb-6">
+            <p className="text-gray-900 text-xl leading-relaxed mb-6">
               At Taraz, we are dedicated to making education accessible to
               students in the age range{" "}
               <strong className="text-[#739C14]">13-18</strong> in{" "}
@@ -24,14 +24,14 @@ const Mission = () => {
             </p>
 
             <div className="border-l-4 border-[#739C14] pl-6 my-8">
-              <p className="text-gray-700 text-lg leading-relaxed italic">
+              <p className="text-gray-800 text-lg leading-relaxed italic">
                 &quot;Together, we can create an environment where education is
                 a pathway to empowerment, and no one is left behind due to their
                 circumstances.&quot;
               </p>
             </div>
 
-            <p className="text-gray-800 text-xl leading-relaxed">
+            <p className="text-gray-900 text-xl leading-relaxed">
               However, our ability to fulfill this mission relies on the support
               of our community—volunteers, teachers, and generous donors.
               Together, we can create an environment where education is a

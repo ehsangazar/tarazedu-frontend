@@ -110,7 +110,7 @@ const Home = () => {
               Taraz Teachers
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-[#739C14] to-[#8BB825] mx-auto rounded-full mb-6"></div>
-            <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
+            <p className="text-gray-800 text-lg max-w-3xl mx-auto leading-relaxed">
               Taraz&apos;s educational team consists of specialized teachers
               from various fields who, with passion and experience, help
               students grow and learn. From language learning and mathematics to
@@ -195,7 +195,7 @@ const Home = () => {
                 role={"Founder"}
               />
             </div>
-            <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
+            <div className="space-y-6 text-gray-800 text-lg leading-relaxed">
               <p className="text-center">
                 About a year ago, I was sitting in a university class listening
                 to my classmates talk about their volunteer work experiences.

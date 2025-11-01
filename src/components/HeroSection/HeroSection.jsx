@@ -1,5 +1,4 @@
-import Button from "../Button/Button";
-import { PiArrowCircleUpLeftFill } from "react-icons/pi";
+import { FaTelegram } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -13,16 +12,19 @@ const HeroSection = () => {
             Without Borders or Limitations
           </span>
         </h1>
-        <p className="text-gray-600 text-xl md:text-2xl mb-10 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-gray-700 text-xl md:text-2xl mb-10 leading-relaxed max-w-2xl mx-auto">
           Ready to start your educational adventure?
         </p>
         <div className="transform transition-transform hover:scale-105">
-          <Button
-            href="https://survey.porsline.ir/s/A84W7tMx"
-            icon={PiArrowCircleUpLeftFill}
+          <a
+            href="https://t.me/+q-sakNStMHE3ODNh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-[#739C14] hover:bg-[#577714] text-white text-lg font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-200"
           >
-            Register for Classes
-          </Button>
+            <FaTelegram className="text-2xl" />
+            <span>Join Us on Telegram</span>
+          </a>
         </div>
       </div>
     </main>
