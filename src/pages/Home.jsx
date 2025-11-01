@@ -15,6 +15,7 @@ import courseSvg from "/course.svg";
 import sepidehImg from "/sepideh.png";
 import arefImg from "/aref.jpg";
 import CourseTile from "../components/CourseTile/CourseTile";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -101,6 +102,147 @@ const Home = () => {
                 }
                 teachers={[aisanSvg]}
               />
+            </div>
+          </div>
+        </div>
+      </Container>
+      <Container>
+        <div className="py-20 relative">
+          {/* Background decorative elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[#DBEFF2]/20 via-transparent to-[#E8F5F7]/20 rounded-3xl -z-10"></div>
+
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Our Journey
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-[#739C14] to-[#8BB825] mx-auto rounded-full mb-6"></div>
+              <p className="text-gray-800 text-lg max-w-3xl mx-auto leading-relaxed">
+                From a small beginning with 3 students to a thriving community
+                of 34 learners, Taraz has grown through dedication and the
+                support of our generous donors.
+              </p>
+            </div>
+
+            {/* Semester Timeline */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8">
+              {/* 1st Semester */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-[#739C14]/10 p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="text-center mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full text-white text-2xl font-bold mb-3">
+                    1
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                    1st Semester
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-2">2023 - 2024</p>
+                  <p className="text-3xl font-bold text-[#739C14] mb-2">
+                    3 Students
+                  </p>
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Launched with Math, English, and Arabic classes, creating a
+                  free online platform for core academic support.
+                </p>
+              </div>
+
+              {/* 2nd Semester */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-[#739C14]/10 p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="text-center mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full text-white text-2xl font-bold mb-3">
+                    2
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                    2nd Semester
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-2">2024 - 2025</p>
+                  <p className="text-3xl font-bold text-[#739C14] mb-2">
+                    16 Students
+                  </p>
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Expanded to include literature, critical writing, programming,
+                  and interdisciplinary courses, evolving into a transformative
+                  learning community.
+                </p>
+              </div>
+
+              {/* 3rd Semester */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-[#739C14]/10 p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="text-center mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full text-white text-2xl font-bold mb-3">
+                    3
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                    3rd Term
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-2">2025 - 2026</p>
+                  <p className="text-3xl font-bold text-[#739C14] mb-2">
+                    34 Students
+                  </p>
+                </div>
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  Introduced workshops on learning journeys, one-on-one
+                  consultations, and well-being sessions, embracing holistic
+                  education in the AI era.
+                </p>
+              </div>
+            </div>
+
+            {/* Sample Images */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img
+                  src="/history/Screen Shot 2024-02-07 at 9.44.20 AM.png"
+                  alt="1st Semester"
+                  className="w-full h-32 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img
+                  src="/history/Screen Shot 2025-02-17 at 11.36.27 AM.png"
+                  alt="3rd Semester"
+                  className="w-full h-32 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img
+                  src="/history/Screen Shot 2025-04-24 at 3.30.12 PM.png"
+                  alt="3rd Semester"
+                  className="w-full h-32 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img
+                  src="/history/Screen Shot 2025-10-19 at 6.15.20 PM.png"
+                  alt="3rd Semester"
+                  className="w-full h-32 object-cover"
+                />
+              </div>
+            </div>
+
+            {/* CTA Button */}
+            <div className="text-center">
+              <Link
+                to="/history"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+              >
+                <span>View Full History</span>
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>

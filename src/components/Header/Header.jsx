@@ -16,6 +16,7 @@ const Header = () => {
     { path: "/our-approach", label: "Our Approach" },
     { path: "/ai-integration", label: "AI Integration" },
     { path: "/founder-vision", label: "Founder's Vision" },
+    { path: "/history", label: "History" },
   ];
 
   return (

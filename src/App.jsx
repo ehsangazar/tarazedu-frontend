@@ -14,6 +14,7 @@ import Mission from "./pages/Mission";
 import OurApproach from "./pages/OurApproach";
 import AIIntegration from "./pages/AIIntegration";
 import FounderVision from "./pages/FounderVision";
+import History from "./pages/History";
 
 // Component to handle GitHub Pages redirect
 function RedirectHandler() {
@@ -47,6 +48,7 @@ function App() {
           <Route path="/our-approach" element={<OurApproach />} />
           <Route path="/ai-integration" element={<AIIntegration />} />
           <Route path="/founder-vision" element={<FounderVision />} />
+          <Route path="/history" element={<History />} />
         </Routes>
         <Footer />
       </div>
