@@ -5,6 +5,27 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taraz Academy</title>
+    <script>
+      // GitHub Pages SPA routing fix
+      // Store the path before redirecting, then restore it after React loads
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      // Only redirect if we're not already on index.html or root
+      if (
+        path !== "/" &&
+        path !== "/index.html" &&
+        !path.startsWith("/index.html")
+      ) {
+        // Store the original path in sessionStorage before redirecting
+        sessionStorage.setItem("ghpRedirectPath", path + search + hash);
+        // Redirect to index.html - the path will be restored after React loads
+        window.location.replace("/index.html");
+      } else if (path === "/404.html") {
+        window.location.replace("/");
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
