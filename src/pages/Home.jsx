@@ -186,56 +186,189 @@ const Home = () => {
         </div>
       </Container>
       <Container>
-        <div className="py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex flex-col items-center mb-12">
-              <PersonTile
-                imgSrc={shadiSvg}
-                title={"Shadi Mahjoom"}
-                role={"Founder"}
-              />
+        <div className="py-20 relative">
+          {/* Background decorative elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[#DBEFF2]/20 via-transparent to-[#E8F5F7]/20 rounded-3xl -z-10"></div>
+
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Taraz Core Team
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-[#739C14] to-[#8BB825] mx-auto rounded-full mb-6"></div>
+              <p className="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
+                The dedicated team behind Taraz&apos;s vision, working together
+                to make quality education accessible to all.
+              </p>
             </div>
-            <div className="space-y-6 text-gray-800 text-lg leading-relaxed">
-              <p className="text-center">
-                About a year ago, I was sitting in a university class listening
-                to my classmates talk about their volunteer work experiences.
-                Their conversations had brought my concerns to the forefront. I
-                thought, what could I do that aligns with my heartfelt desires?
-              </p>
-              <p className="text-center">
-                Since thoughts of Iran never leave my mind, I decided to start
-                something connected to the land I&apos;ve been away from for
-                years. I delved deeper into my thoughts and saw that I also had
-                the tools to start this work: my passion for knowledge and a
-                sense of responsibility to share the educational opportunities I
-                had gained throughout my migration journey.
-              </p>
-              <p className="text-center">
-                I left Iran at the age of 16, and during my migration journey, I
-                became acquainted with a new world of opportunities,
-                experiences, and people, and I learned. I learned from people
-                who were not only guides in important life decisions but also
-                always accompanied me in finding my purpose in life and reaching
-                it. This is where the idea of creating a virtual educational
-                institution came to my mind. A structure that geographical
-                boundaries don&apos;t limit, and every student, regardless of
-                their social and economic status, has the opportunity to use its
-                opportunities.
-              </p>
-              <p className="text-center">
-                A year has passed since Taraz began. We faced various
-                challenges, the most important of which was the lack of complete
-                connection between the classroom environment and practical
-                skills. Skills that are connected to today&apos;s technology and
-                can play a fundamental role in building a better world.
-                Therefore, Taraz&apos;s next step is to gain sufficient
-                understanding of students&apos; needs and offer diverse
-                educational classes. Classes that give students the opportunity
-                for ideation and cultivating a questioning mind, and introduce
-                them to the world outside the classroom framework; in the hope
-                that this enthusiasm will be a fresh force for moving toward
-                their goals.
-              </p>
+
+            {/* Core Team Members */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-4xl mx-auto">
+              {/* Shadi Mahjoom */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-[#739C14]/10 p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="flex flex-col items-center text-center">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full blur-xl opacity-30"></div>
+                    <img
+                      src={shadiSvg}
+                      alt="Shadi Mahjoom"
+                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20"
+                    />
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                    Shadi Mahjoom
+                  </h3>
+                  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                    <span>Founder & Visionary</span>
+                  </div>
+                  <p className="text-gray-600 text-base leading-relaxed">
+                    Building bridges through education, connecting hearts across
+                    borders. Passionate about making quality education
+                    accessible to everyone, regardless of geographical or
+                    economic boundaries.
+                  </p>
+                </div>
+              </div>
+
+              {/* Ehsan Gazar */}
+              <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-[#739C14]/10 p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                <div className="flex flex-col items-center text-center">
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full blur-xl opacity-30"></div>
+                    <img
+                      src={ehsanSvg}
+                      alt="Ehsan Gazar"
+                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20"
+                    />
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                    Ehsan Gazar
+                  </h3>
+                  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                    <span>Core Team Member</span>
+                  </div>
+                  <p className="text-gray-600 text-base leading-relaxed">
+                    Programming instructor and technical lead, dedicated to
+                    empowering students with practical skills and real-world
+                    project experience. Bridging technology and education to
+                    shape the future.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Container>
+      <Container>
+        <div className="py-20 relative">
+          {/* Background decorative elements */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[#DBEFF2]/30 via-transparent to-[#E8F5F7]/30 rounded-3xl -z-10"></div>
+
+          <div className="max-w-6xl mx-auto">
+            {/* Section Header */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                Our Founder&apos;s Story
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-[#739C14] to-[#8BB825] mx-auto rounded-full mb-6"></div>
+            </div>
+
+            {/* Founder Card */}
+            <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl border border-[#739C14]/10 p-8 md:p-12 mb-12">
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-8 mb-8">
+                {/* Founder Image */}
+                <div className="flex-shrink-0">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#739C14] to-[#8BB825] rounded-full blur-xl opacity-30"></div>
+                    <img
+                      src={shadiSvg}
+                      alt="Shadi Mahjoom"
+                      className="relative w-32 h-32 md:w-40 md:h-40 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20"
+                    />
+                  </div>
+                </div>
+
+                {/* Founder Info */}
+                <div className="flex-1 text-center md:text-left">
+                  <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+                    Shadi Mahjoom
+                  </h3>
+                  <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
+                    <span>Founder & Visionary</span>
+                  </div>
+                  <p className="text-gray-600 text-lg max-w-2xl">
+                    Building bridges through education, connecting hearts across
+                    borders
+                  </p>
+                </div>
+              </div>
+
+              {/* Highlighted Quote */}
+              <div className="bg-gradient-to-r from-[#739C14]/10 via-[#8BB825]/10 to-[#739C14]/10 rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-[#739C14]">
+                <p className="text-xl md:text-2xl text-gray-800 font-medium italic leading-relaxed text-center">
+                  &quot;A structure that geographical boundaries don&apos;t
+                  limit, and every student, regardless of their social and
+                  economic status, has the opportunity to use its
+                  opportunities.&quot;
+                </p>
+              </div>
+            </div>
+
+            {/* Story Content */}
+            <div className="space-y-8 text-gray-700 text-lg md:text-xl leading-relaxed">
+              <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-md border border-[#739C14]/10">
+                <p className="text-center md:text-left">
+                  About a year ago, I was sitting in a university class
+                  listening to my classmates talk about their volunteer work
+                  experiences. Their conversations had brought my concerns to
+                  the forefront. I thought, what could I do that aligns with my
+                  heartfelt desires?
+                </p>
+              </div>
+
+              <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-md border border-[#739C14]/10">
+                <p className="text-center md:text-left">
+                  Since thoughts of Iran never leave my mind, I decided to start
+                  something connected to the land I&apos;ve been away from for
+                  years. I delved deeper into my thoughts and saw that I also
+                  had the tools to start this work: my passion for knowledge and
+                  a sense of responsibility to share the educational
+                  opportunities I had gained throughout my migration journey.
+                </p>
+              </div>
+
+              <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-md border border-[#739C14]/10">
+                <p className="text-center md:text-left">
+                  I left Iran at the age of 16, and during my migration journey,
+                  I became acquainted with a new world of opportunities,
+                  experiences, and people, and I learned. I learned from people
+                  who were not only guides in important life decisions but also
+                  always accompanied me in finding my purpose in life and
+                  reaching it. This is where the idea of creating a virtual
+                  educational institution came to my mind. A structure that
+                  geographical boundaries don&apos;t limit, and every student,
+                  regardless of their social and economic status, has the
+                  opportunity to use its opportunities.
+                </p>
+              </div>
+
+              <div className="bg-gradient-to-br from-[#739C14]/5 to-[#8BB825]/5 rounded-2xl p-6 md:p-8 shadow-md border-2 border-[#739C14]/20">
+                <p className="text-center md:text-left font-medium">
+                  A year has passed since Taraz began. We faced various
+                  challenges, the most important of which was the lack of
+                  complete connection between the classroom environment and
+                  practical skills. Skills that are connected to today&apos;s
+                  technology and can play a fundamental role in building a
+                  better world. Therefore, Taraz&apos;s next step is to gain
+                  sufficient understanding of students&apos; needs and offer
+                  diverse educational classes. Classes that give students the
+                  opportunity for ideation and cultivating a questioning mind,
+                  and introduce them to the world outside the classroom
+                  framework; in the hope that this enthusiasm will be a fresh
+                  force for moving toward their goals.
+                </p>
+              </div>
             </div>
           </div>
         </div>
