@@ -5,7 +5,7 @@ const PersonTile = ({ imgSrc, title, role }) => {
         <img
           src={imgSrc}
           alt={title}
-          className="w-28 h-28 mx-auto rounded-full shadow-lg border-4 border-white hover:border-[#739C14] transition-all duration-300 hover:scale-110"
+          className="w-28 h-28 mx-auto rounded-full shadow-lg border-4 border-white hover:border-[#739C14] transition-all duration-300 hover:scale-110 grayscale"
         />
       </div>
       <h3 className="text-xl font-bold text-center text-gray-900 mt-4">

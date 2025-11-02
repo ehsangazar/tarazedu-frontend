@@ -13,7 +13,8 @@ import aisanSvg from "/aisan.svg";
 import matinSvg from "/matin.svg";
 import courseSvg from "/course.svg";
 import sepidehImg from "/sepideh.png";
-import arefImg from "/aref.jpg";
+import arefImg from "/aref.png";
+import zohrehImg from "/zohreh.png";
 import CourseTile from "../components/CourseTile/CourseTile";
 import { Link } from "react-router-dom";
 
@@ -338,6 +339,13 @@ const Home = () => {
                 role={"Shahnameh Reading Instructor"}
               />
             </div>
+            <div className="transform transition-transform hover:scale-105">
+              <PersonTile
+                imgSrc={zohrehImg}
+                title={"Zohreh Mahmoudi"}
+                role={"Philosophy teacher"}
+              />
+            </div>
           </div>
         </div>
       </Container>
@@ -369,7 +377,7 @@ const Home = () => {
                     <img
                       src={shadiSvg}
                       alt="Shadi Mahjoom"
-                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20"
+                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20 grayscale"
                     />
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
@@ -395,7 +403,7 @@ const Home = () => {
                     <img
                       src={ehsanSvg}
                       alt="Ehsan Gazar"
-                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20"
+                      className="relative w-32 h-32 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20 grayscale"
                     />
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
@@ -425,7 +433,7 @@ const Home = () => {
                       <img
                         src={sepidehImg}
                         alt="Sepideh Kazemi"
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover grayscale"
                       />
                     </div>
                   </div>
@@ -471,7 +479,7 @@ const Home = () => {
                     <img
                       src={shadiSvg}
                       alt="Shadi Mahjoom"
-                      className="relative w-32 h-32 md:w-40 md:h-40 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20"
+                      className="relative w-32 h-32 md:w-40 md:h-40 rounded-full shadow-2xl border-4 border-white ring-4 ring-[#739C14]/20 grayscale"
                     />
                   </div>
                 </div>

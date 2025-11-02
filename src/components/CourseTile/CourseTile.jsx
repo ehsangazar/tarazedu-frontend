@@ -18,7 +18,7 @@ const CourseTile = ({ imgSrc, title, learning, description, teachers }) => {
           <img
             key={`teacher-${index}`}
             src={teacher}
-            className="w-12 h-12 border-3 border-white rounded-full shadow-md hover:scale-110 transition-transform duration-200"
+            className="w-12 h-12 border-3 border-white rounded-full shadow-md hover:scale-110 transition-transform duration-200 grayscale"
             alt={`Teacher ${index + 1}`}
           />
         ))}
