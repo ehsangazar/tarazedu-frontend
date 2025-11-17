@@ -41,7 +41,7 @@ const History = () => {
             </h2>
             <p className="text-gray-900 text-lg md:text-xl leading-relaxed mb-6">
               With the generosity of our donors, we have been able to achieve
-              significant milestones. Here&apos;s how your contributions have
+              significant milestones. Your contributions help us create a space where students&apos; potential isn&apos;t confined by circumstance, connecting them with the resources they need to turn possibility into reality. Here&apos;s how your contributions have
               made a difference:
             </p>
             <div className="space-y-3">
@@ -79,7 +79,7 @@ const History = () => {
             <div className="text-center mt-8 pt-8 border-t border-[#739C14]/20">
               <p className="text-gray-800 text-lg mb-4">
                 Your contributions make a real difference. Support our mission
-                to provide accessible education.
+                to provide free, equal, and accessible education for all, connecting students with teachers, volunteers, and resources that help turn possibility into reality.
               </p>
               <a
                 href="https://buymeacoffee.com/tarazedu"
@@ -126,7 +126,7 @@ const History = () => {
                 Taraz would become. They attended every class, regardless of
                 time or circumstance, driven by curiosity and resilience. Their
                 commitment reminded us why education should always remain
-                accessible no matter one&apos;s background or challenges.
+                accessible no matter one&apos;s background or challenges. These students showed us that when given the opportunity, their potential isn&apos;t confined by circumstance.
               </p>
             </div>
             {firstSemesterImages.length > 0 && (
@@ -179,7 +179,7 @@ const History = () => {
                 This semester marked a turning point—Taraz began to evolve from
                 a tutoring platform into a transformative learning community for
                 the <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
-                community.
+                community. We saw students connecting with teachers, volunteers, and resources, turning possibility into reality. This growing community began to see learning as a force for change.
               </p>
             </div>
             {secondSemesterImages.length > 0 && (
@@ -255,7 +255,7 @@ const History = () => {
               <p>
                 This term reflects our ongoing shift toward a holistic model of
                 education, one that nurtures the skills and mindset essential
-                for learning in the age of abundance and information.
+                for learning in the age of abundance and information. Through this journey, we&apos;ve had the privilege of meeting students who are truly inspirational. Their hard work and determination have shaped what Taraz is today—not just an educational platform, but a growing community that sees learning as a force for change. Many of these students now lead their own initiatives, teaching others, strengthening their communities, and continuing the cycle of education for the next generation of dreamers.
               </p>
             </div>
             {thirdSemesterImages.length > 0 && (

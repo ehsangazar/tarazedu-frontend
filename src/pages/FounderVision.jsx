@@ -22,46 +22,22 @@ const FounderVision = () => {
         </div>
 
         <div className="max-w-4xl mx-auto space-y-8">
-          <p className="text-gray-900 text-xl leading-relaxed text-center mb-12">
-            As the founder and educational lead at Taraz, my mission is to
-            design a curriculum for{" "}
-            <strong className="text-[#739C14]">Farsi-speaking</strong> students
-            that serves three key purposes:
-          </p>
+          <div className="space-y-6">
+            <p className="text-gray-900 text-xl leading-relaxed">
+              Three years ago, I was sitting in a classroom listening to my classmates talk about finding an activity or passion that redefined our purpose beyond the walls of our careers. It made me think about why I had chosen medicine in the first place: to have a tool that could alleviate people&apos;s pain, even if just for a moment. But as time went on, I realized that the ability to help others goes beyond medicine itself. What truly shapes our mission in life is not only our desire to help, but also the circumstances that make that desire possible. I recognized how much of my own journey was shaped by external factors that are beyond my control; being surrounded by a loving family, and access to quality education. This was the starting point for Taraz.
+            </p>
 
-          <div className="space-y-6 mt-8">
-            <div className="bg-gradient-to-br from-[#DBEFF2] to-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                1. Foster Critical Thinking and Problem Solving
-              </h2>
-              <p className="text-gray-800 text-lg leading-relaxed">
-                Incorporate AI as a tool to enhance—not replace—students&apos;
-                ability to think analytically and creatively.
-              </p>
-            </div>
+            <p className="text-gray-900 text-xl leading-relaxed">
+              I wanted to create a space for students who didn&apos;t have the same opportunities, where their potential wouldn&apos;t be confined by circumstance. My goal was to make their dreams more tangible, to connect them with people and resources that could help turn possibility into reality.
+            </p>
 
-            <div className="bg-gradient-to-br from-[#DBEFF2] to-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                2. Support Personal Exploration and Growth
-              </h2>
-              <p className="text-gray-800 text-lg leading-relaxed">
-                Guide students on a journey of self-discovery by offering
-                diverse, accessible courses across social sciences, literature,
-                art, technology, career skills, and science.
-              </p>
-            </div>
+            <p className="text-gray-900 text-xl leading-relaxed">
+              As the founder of Taraz, my primary role has been to listen to students&apos; stories, their daily struggles, and, most importantly, their needs that go beyond traditional learning. At Taraz, we are dedicated to creating a free online platform where these voices can be heard, and where students are connected with teachers from diverse disciplines, passionate volunteers, and donors who share the same belief in free, equal, and accessible education for all.
+            </p>
 
-            <div className="bg-gradient-to-br from-[#DBEFF2] to-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                3. Bridge Education and Real-World Application
-              </h2>
-              <p className="text-gray-800 text-lg leading-relaxed">
-                Once students identify their interests, help them align these
-                passions with real-world opportunities—so they can not only
-                build meaningful careers but also contribute their unique skills
-                to the world.
-              </p>
-            </div>
+            <p className="text-gray-900 text-xl leading-relaxed">
+              Through this journey, I&apos;ve had the privilege of meeting students who are truly inspirational. Their hard work and determination have shaped what Taraz is today—not just an educational platform, but a growing community that sees learning as a force for change. Many of these students now lead their own initiatives, teaching others, strengthening their communities, and continuing the cycle of education for the next generation of dreamers.
+            </p>
           </div>
         </div>
       </div>

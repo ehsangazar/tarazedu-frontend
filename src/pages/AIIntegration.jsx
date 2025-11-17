@@ -35,11 +35,11 @@ const AIIntegration = () => {
               Our Approach to AI
             </h2>
             <p className="text-gray-800 text-lg leading-relaxed">
-              At Taraz, we aim to integrate AI in a way that supplements
+              At Taraz, we listen to students&apos; needs that go beyond traditional learning, and we aim to integrate AI in a way that supplements
               learning, not replaces it. We encourage{" "}
               <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
               students to engage in critical thinking, both through peer
-              collaboration and thoughtful interaction with AI.
+              collaboration and thoughtful interaction with AI, helping them turn possibility into reality.
             </p>
 
             <p className="text-gray-800 text-lg leading-relaxed">

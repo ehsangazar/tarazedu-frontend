@@ -14,31 +14,23 @@ const Mission = () => {
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="bg-gradient-to-br from-[#DBEFF2] to-white rounded-3xl p-8 md:p-12 shadow-lg">
             <p className="text-gray-900 text-xl leading-relaxed mb-6">
-              At Taraz, we are dedicated to making education accessible to{" "}
+              At Taraz, we are dedicated to creating a space for{" "}
               <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
               students in the age range{" "}
               <strong className="text-[#739C14]">13-18</strong> in{" "}
-              <strong className="text-[#739C14]">Iran</strong>. Our mission is
-              to break down barriers by offering online classes that only
-              require internet access and a smartphone, connecting{" "}
-              <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
-              students from every corner of Iran.
+              <strong className="text-[#739C14]">Iran</strong> where their potential isn&apos;t confined by circumstance. Our mission is to connect students with teachers from diverse disciplines, passionate volunteers, and donors who share the same belief in free, equal, and accessible education for all.
             </p>
 
             <div className="border-l-4 border-[#739C14] pl-6 my-8">
               <p className="text-gray-800 text-lg leading-relaxed italic">
-                &quot;Together, we can create an environment where education is
-                a pathway to empowerment, and no one is left behind due to their
-                circumstances.&quot;
+                &quot;I wanted to create a space for students who didn&apos;t have the same opportunities, where their potential wouldn&apos;t be confined by circumstance. My goal was to make their dreams more tangible, to connect them with people and resources that could help turn possibility into reality.&quot;
               </p>
             </div>
 
             <p className="text-gray-900 text-xl leading-relaxed mb-6">
-              However, our ability to fulfill this mission relies on the support
-              of our community—volunteers, teachers, and generous donors.
-              Together, we can create an environment where education is a
-              pathway to empowerment, and no one is left behind due to their
-              circumstances.
+              We listen to students&apos; stories, their daily struggles, and, most importantly, their needs that go beyond traditional learning. Through our free online platform, we offer classes that only require internet access and a smartphone, connecting{" "}
+              <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
+              students from every corner of Iran with the resources and support they need to turn possibility into reality. Our ability to fulfill this mission relies on the support of our community—volunteers, teachers, and generous donors who share our vision of free, equal, and accessible education for all.
             </p>
 
             {/* Donation CTA */}

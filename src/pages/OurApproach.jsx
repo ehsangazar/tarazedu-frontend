@@ -15,7 +15,7 @@ const OurApproach = () => {
           <div className="space-y-4">
             <p className="text-gray-900 text-lg leading-relaxed">
               Our journey at Taraz has been one of continuous growth, learning,
-              and improvement. We believe that education goes beyond academic
+              and improvement. At the heart of our approach is listening to students&apos; stories, their daily struggles, and, most importantly, their needs that go beyond traditional learning. We believe that education goes beyond academic
               knowledge. Our mission is to empower{" "}
               <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
               students with both practical and soft skills that equip them to
@@ -24,9 +24,9 @@ const OurApproach = () => {
             </p>
 
             <p className="text-gray-900 text-lg leading-relaxed">
-              Alongside core subjects, we emphasize the importance of critical
+              By connecting students with teachers from diverse disciplines, passionate volunteers, and resources, we create a space where their potential isn&apos;t confined by circumstance. Alongside core subjects, we emphasize the importance of critical
               thinking, problem-solving, effective communication, and stress
-              management.
+              management—skills that help turn possibility into reality.
             </p>
           </div>
 

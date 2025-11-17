@@ -124,9 +124,9 @@ const Home = () => {
                 <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
                 students to a thriving community of 34 learners, Taraz has grown
                 through dedication and the support of our generous donors. We
-                serve the{" "}
+                create a space where students&apos; potential isn&apos;t confined by circumstance, connecting them with teachers, volunteers, and resources that help turn possibility into reality. We serve the{" "}
                 <strong className="text-[#739C14]">Farsi-speaking</strong>{" "}
-                community, providing accessible education to students across
+                community, providing free, equal, and accessible education to students across
                 Iran.
               </p>
             </div>
@@ -387,10 +387,7 @@ const Home = () => {
                     <span>Founder & Visionary</span>
                   </div>
                   <p className="text-gray-600 text-base leading-relaxed">
-                    Building bridges through education, connecting hearts across
-                    borders. Passionate about making quality education
-                    accessible to everyone, regardless of geographical or
-                    economic boundaries.
+                    Creating spaces where students&apos; potential isn&apos;t confined by circumstance. Passionate about connecting learners with teachers, volunteers, and resources to turn possibility into reality, making free and accessible education available to all.
                   </p>
                 </div>
               </div>
@@ -493,8 +490,7 @@ const Home = () => {
                     <span>Founder & Visionary</span>
                   </div>
                   <p className="text-gray-600 text-lg max-w-2xl">
-                    Building bridges through education, connecting hearts across
-                    borders
+                    Creating spaces where potential isn&apos;t confined by circumstance, connecting students with opportunities to turn possibility into reality
                   </p>
                 </div>
               </div>
@@ -502,10 +498,7 @@ const Home = () => {
               {/* Highlighted Quote */}
               <div className="bg-gradient-to-r from-[#739C14]/10 via-[#8BB825]/10 to-[#739C14]/10 rounded-2xl p-6 md:p-8 mb-8 border-l-4 border-[#739C14]">
                 <p className="text-xl md:text-2xl text-gray-800 font-medium italic leading-relaxed text-center">
-                  &quot;A structure that geographical boundaries don&apos;t
-                  limit, and every student, regardless of their social and
-                  economic status, has the opportunity to use its
-                  opportunities.&quot;
+                  &quot;I wanted to create a space for students who didn&apos;t have the same opportunities, where their potential wouldn&apos;t be confined by circumstance.&quot;
                 </p>
               </div>
             </div>
@@ -514,56 +507,50 @@ const Home = () => {
             <div className="space-y-8 text-gray-700 text-lg md:text-xl leading-relaxed">
               <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-md border border-[#739C14]/10">
                 <p className="text-center md:text-left">
-                  About a year ago, I was sitting in a university class
-                  listening to my classmates talk about their volunteer work
-                  experiences. Their conversations had brought my concerns to
-                  the forefront. I thought, what could I do that aligns with my
-                  heartfelt desires?
+                  Three years ago, I was sitting in a classroom listening to my classmates talk about finding an activity or passion that redefined our purpose beyond the walls of our careers. It made me think about why I had chosen medicine in the first place: to have a tool that could alleviate people&apos;s pain, even if just for a moment. But as time went on, I realized that the ability to help others goes beyond medicine itself. What truly shapes our mission in life is not only our desire to help, but also the circumstances that make that desire possible. I recognized how much of my own journey was shaped by external factors that are beyond my control; being surrounded by a loving family, and access to quality education. This was the starting point for Taraz.
                 </p>
               </div>
 
               <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-md border border-[#739C14]/10">
                 <p className="text-center md:text-left">
-                  Since thoughts of Iran never leave my mind, I decided to start
-                  something connected to the land I&apos;ve been away from for
-                  years. I delved deeper into my thoughts and saw that I also
-                  had the tools to start this work: my passion for knowledge and
-                  a sense of responsibility to share the educational
-                  opportunities I had gained throughout my migration journey.
+                  I wanted to create a space for students who didn&apos;t have the same opportunities, where their potential wouldn&apos;t be confined by circumstance. My goal was to make their dreams more tangible, to connect them with people and resources that could help turn possibility into reality.
                 </p>
               </div>
 
               <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-md border border-[#739C14]/10">
                 <p className="text-center md:text-left">
-                  I left Iran at the age of 16, and during my migration journey,
-                  I became acquainted with a new world of opportunities,
-                  experiences, and people, and I learned. I learned from people
-                  who were not only guides in important life decisions but also
-                  always accompanied me in finding my purpose in life and
-                  reaching it. This is where the idea of creating a virtual
-                  educational institution came to my mind. A structure that
-                  geographical boundaries don&apos;t limit, and every student,
-                  regardless of their social and economic status, has the
-                  opportunity to use its opportunities.
+                  As the founder of Taraz, my primary role has been to listen to students&apos; stories, their daily struggles, and, most importantly, their needs that go beyond traditional learning. At Taraz, we are dedicated to creating a free online platform where these voices can be heard, and where students are connected with teachers from diverse disciplines, passionate volunteers, and donors who share the same belief in free, equal, and accessible education for all.
                 </p>
               </div>
 
               <div className="bg-gradient-to-br from-[#739C14]/5 to-[#8BB825]/5 rounded-2xl p-6 md:p-8 shadow-md border-2 border-[#739C14]/20">
                 <p className="text-center md:text-left font-medium">
-                  A year has passed since Taraz began. We faced various
-                  challenges, the most important of which was the lack of
-                  complete connection between the classroom environment and
-                  practical skills. Skills that are connected to today&apos;s
-                  technology and can play a fundamental role in building a
-                  better world. Therefore, Taraz&apos;s next step is to gain
-                  sufficient understanding of students&apos; needs and offer
-                  diverse educational classes. Classes that give students the
-                  opportunity for ideation and cultivating a questioning mind,
-                  and introduce them to the world outside the classroom
-                  framework; in the hope that this enthusiasm will be a fresh
-                  force for moving toward their goals.
+                  Through this journey, I&apos;ve had the privilege of meeting students who are truly inspirational. Their hard work and determination have shaped what Taraz is today—not just an educational platform, but a growing community that sees learning as a force for change. Many of these students now lead their own initiatives, teaching others, strengthening their communities, and continuing the cycle of education for the next generation of dreamers.
                 </p>
               </div>
+            </div>
+
+            {/* CTA to Full Story */}
+            <div className="text-center mt-12">
+              <Link
+                to="/founder-vision"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-[#739C14] to-[#8BB825] text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+              >
+                <span>Read Full Founder&apos;s Vision</span>
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>

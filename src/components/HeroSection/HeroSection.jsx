@@ -51,27 +51,27 @@ const HeroSection = () => {
         <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-md mb-8 border border-[#739C14]/20">
           <span className="w-2 h-2 bg-[#8BB825] rounded-full animate-pulse"></span>
           <span className="text-sm font-medium text-gray-700">
-            Online Education Platform
+            Free Online Education Platform
           </span>
         </div>
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-gray-900 mb-6 leading-tight">
-          <span className="block mb-2">Education for All</span>
+          <span className="block mb-2">Where Potential</span>
           <span className="block bg-gradient-to-r from-[#739C14] via-[#8BB825] to-[#739C14] bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
-            Without Borders
+            Isn&apos;t Confined
           </span>
-          <span className="block text-gray-800 mt-2">or Limitations</span>
+          <span className="block text-gray-800 mt-2">by Circumstance</span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-gray-700 text-xl md:text-2xl lg:text-3xl mb-4 leading-relaxed max-w-3xl mx-auto font-medium">
-          Ready to start your educational adventure?
+          Connecting students with teachers, volunteers, and resources
         </p>
         <p className="text-gray-600 text-lg md:text-xl mb-12 leading-relaxed max-w-2xl mx-auto">
-          Join a community of{" "}
+          Join a growing community of{" "}
           <strong className="text-[#739C14]">Farsi-speaking</strong> learners,
-          teachers, and innovators building the future of education together.
+          passionate teachers, dedicated volunteers, and generous donors who share the same belief in free, equal, and accessible education for all. Together, we turn possibility into reality.
         </p>
 
         {/* CTA Section */}

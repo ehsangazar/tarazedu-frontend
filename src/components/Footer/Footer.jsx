@@ -27,8 +27,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Taraz</span>
             </Link>
             <p className="text-white/70 text-sm leading-relaxed mb-6">
-              Education for all without borders or limitations. Empowering
-              students worldwide through accessible, quality education.
+              Creating spaces where students&apos; potential isn&apos;t confined by circumstance. Connecting students with teachers, volunteers, and resources for free, equal, and accessible education.
             </p>
             {/* Social Media Links */}
             <div className="flex items-center gap-4">
@@ -142,9 +141,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">About</h3>
             <p className="text-white/70 text-sm leading-relaxed mb-4">
-              Taraz is a virtual educational institution dedicated to providing
-              quality education accessible to all students, regardless of
-              geographical boundaries or economic status.
+              Taraz is a free online platform connecting students with teachers from diverse disciplines, passionate volunteers, and donors who share the same belief in free, equal, and accessible education for all.
             </p>
             <a
               href="https://buymeacoffee.com/tarazedu"
@@ -157,7 +154,7 @@ const Footer = () => {
             </a>
             <div className="pt-4 border-t border-white/10">
               <p className="text-white/60 text-xs">
-                Building bridges through education
+                Turning possibility into reality
               </p>
             </div>
           </div>
