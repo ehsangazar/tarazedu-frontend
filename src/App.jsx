@@ -16,6 +16,7 @@ import OurApproach from "./pages/OurApproach";
 import AIIntegration from "./pages/AIIntegration";
 import FounderVision from "./pages/FounderVision";
 import History from "./pages/History";
+import Events from "./pages/Events";
 
 // Component to scroll to top on route change
 function ScrollToTop() {
@@ -62,6 +63,7 @@ function App() {
           <Route path="/ai-integration" element={<AIIntegration />} />
           <Route path="/founder-vision" element={<FounderVision />} />
           <Route path="/history" element={<History />} />
+          <Route path="/events" element={<Events />} />
         </Routes>
         <Footer />
         <FloatingDonateButton />

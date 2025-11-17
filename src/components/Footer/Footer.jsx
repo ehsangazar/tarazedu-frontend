@@ -11,6 +11,7 @@ const Footer = () => {
     { path: "/our-approach", label: "Our Approach" },
     { path: "/ai-integration", label: "AI Integration" },
     { path: "/founder-vision", label: "Founder's Vision" },
+    { path: "/events", label: "Events" },
   ];
 
   return (
